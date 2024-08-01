@@ -549,7 +549,7 @@ do
 					-- // Functions / Connections
 					local connection = utility:Connection({Type = toggleButton.MouseButton1Down, Callback = function()
 						toggle.state = not toggle.state
-						toggleInlineGradient.BackgroundColor3 = toggle.state and Color3.fromRGB(170, 85, 235) or Color3.fromRGB(63, 63, 63)
+						toggleInlineGradient.BackgroundColor3 = toggle.state and Color3.fromRGB(236,85,85) or Color3.fromRGB(63, 63, 63)
 						toggle.callback(toggle.state)
 					end})
 					-- // Nested Functions
